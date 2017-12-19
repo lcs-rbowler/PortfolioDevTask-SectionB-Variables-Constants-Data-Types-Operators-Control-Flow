@@ -21,7 +21,13 @@
  
  */
 // Answer question 2 below
+let measurementDate = 1
+let timeOfMeasurment = 2
+let currentHeightofSnowInCentimeters = 3
 
+var totalSnowfallOverEntireYear = 4
+
+print("For the first 3 values I used constants since the measurments do not change whereas the total snowfall will vary as the year progresses so I set it to be a variable.")
 /*:
  ## Now share your understanding
  
