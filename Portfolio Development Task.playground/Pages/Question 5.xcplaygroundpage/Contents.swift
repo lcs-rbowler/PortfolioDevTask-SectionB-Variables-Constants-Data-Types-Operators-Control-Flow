@@ -16,7 +16,19 @@ let hasGreenAndWhiteBuildings = true
 
 // Answer question 5 below
 
-
+if hasWaterfrontOnLake == true {
+    if hasBoysAndGirlsAttending == true {
+        if hasGreenAndWhiteBuildings == true {
+            print("Must be Lakefield!")
+        } else {
+            print("Hmm, need more data to be sure.")
+        }
+    } else {
+        print("Hmm, need more data to be sure.")
+    }
+} else {
+    print("Hmm, need more data to be sure.")
+}
 /*:
  ## Now share your understanding
  
