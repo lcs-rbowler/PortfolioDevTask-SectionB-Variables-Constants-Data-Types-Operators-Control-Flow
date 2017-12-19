@@ -19,7 +19,7 @@
 var originalCost = 79.99
 var percentageDiscountOffered = 0.40
 let taxRate = 0.13
-let finalCost = originalCost * (1 - percentageDiscountOffered) * (1 + taxRate)
+let finalCostAfterTax = originalCost * (1 - percentageDiscountOffered) * (1 + taxRate)
  
 /*:
 - callout(Shortcut): The **Edit All in Scope** menu command is useful when renaming variables – place your cursor within the variable name and then invoke the menu command.
