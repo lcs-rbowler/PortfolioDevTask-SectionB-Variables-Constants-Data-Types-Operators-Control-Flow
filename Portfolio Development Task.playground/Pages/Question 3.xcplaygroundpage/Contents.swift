@@ -21,7 +21,14 @@
  
  */
 // Answer question 3 below
+let hairDonationAmount = 55.75
+let runTrainingDonationAmount = 15.35
+var headShavedCount = 12.0
+var runTraningCount = 73.0
 
+var totalDonationAmount = (headShavedCount * hairDonationAmount) + (runTraningCount * runTrainingDonationAmount)
+
+print("Since the donation amount will never change it makes sense to set them as constants but the amount of people could increase so the counts should be variables since they are mutable.")
 /*:
  ## Now share your understanding
  
