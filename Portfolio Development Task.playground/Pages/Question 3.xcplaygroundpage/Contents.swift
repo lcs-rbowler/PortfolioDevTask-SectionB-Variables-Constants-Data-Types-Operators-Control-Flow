@@ -20,13 +20,13 @@
  Finally, for each variable and constant, explain why you used a given data type. Use `print()` statements to do this.
  
  */
-// Answer question 3 below
+// Answer question 3
 let hairDonationAmount = 55.75
 let runTrainingDonationAmount = 15.35
-var headShavedCount = 12.0
-var runTraningCount = 73.0
+var headShavedCount = 12
+var runTraningCount = 73
 
-var totalDonationAmount = (headShavedCount * hairDonationAmount) + (runTraningCount * runTrainingDonationAmount)
+var totalDonationAmount = (Double(headShavedCount) * hairDonationAmount) + (Double(runTraningCount) * runTrainingDonationAmount)
 
 print("Since the donation amount will never change it makes sense to set them as constants but the amount of people could increase so the counts should be variables since they are mutable.")
 /*:
